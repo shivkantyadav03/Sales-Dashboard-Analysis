@@ -2,92 +2,97 @@
 
 ## Project Overview
 
-The **Sales Dashboard Analysis** project focuses on analyzing sales data using **SQL, Python, and Power BI** to transform raw data into meaningful business insights.
+Sales Dashboard Analysis is an end-to-end data analytics project focused on understanding customer shopping behavior and analyzing sales performance using Python, SQL (MySQL), and Power BI.
 
-The project involves data extraction, data cleaning, exploratory data analysis, SQL-based querying, and interactive dashboard development. The objective is to understand sales performance, identify trends, and support data-driven business decisions.
+The project involves data cleaning, exploratory data analysis, SQL-based querying, and interactive dashboard development. It aims to identify customer purchasing patterns, analyze sales trends, evaluate product performance, and generate meaningful business insights to support data-driven decision-making.
 
 ## Tools & Technologies Used
 
-- **SQL (MySQL):** Data storage, querying, filtering, aggregation, and analysis.
-- **Python:** Data cleaning, preprocessing, and exploratory data analysis using Pandas and NumPy.
-- **Power BI:** Interactive dashboard creation and data visualization.
-- **Excel/CSV:** Dataset handling and initial data inspection.
+- Python: Data cleaning, preprocessing, and exploratory data analysis using Pandas and NumPy.
+- MySQL: Database management, SQL queries, filtering, grouping, and aggregation.
+- Power BI: Interactive dashboards, KPI tracking, and data visualization.
+- Jupyter Notebook: Python-based data analysis and exploration.
 
 ## Project Workflow
 
-1. **Data Collection**
-   - Obtained the sales dataset for analysis.
-   - Inspected the dataset structure and available fields.
+### 1. Data Cleaning and Analysis Using Python
 
-2. **Data Cleaning & Preprocessing (Python)**
-   - Handled missing and duplicate values.
-   - Checked data types and corrected inconsistencies.
-   - Prepared the dataset for further analysis using Pandas.
+- Imported and explored the customer shopping dataset.
+- Performed data cleaning and preprocessing.
+- Handled missing values and duplicate records where required.
+- Used Pandas and NumPy for data manipulation and exploratory analysis.
 
-3. **Database Management & Analysis (SQL)**
-   - Imported the cleaned dataset into MySQL.
-   - Used SQL queries to filter, group, and aggregate sales data.
-   - Analyzed sales performance and business metrics.
+### 2. SQL Analysis Using MySQL
 
-4. **Dashboard Development (Power BI)**
-   - Connected the data to Power BI.
-   - Created interactive visualizations and KPI indicators.
-   - Designed dashboards to make sales information easier to understand.
+- Imported the dataset into MySQL.
+- Wrote SQL queries to retrieve and analyze customer shopping information.
+- Used filtering, grouping, aggregation, and other SQL operations.
+- Analyzed customer purchasing patterns and sales performance.
+
+### 3. Power BI Dashboard Development
+
+- Connected the dataset to Power BI.
+- Created interactive visualizations and KPI indicators.
+- Developed a dashboard to present sales and customer-related insights.
+- Used visual representations to make business performance easier to understand.
 
 ## Key Analysis Areas
 
-The project focuses on exploring:
-
 - Overall sales performance.
-- Revenue and profit trends.
+- Customer shopping and purchasing behavior.
 - Product and category-wise performance.
-- Sales distribution across different segments.
-- Identification of high-performing and low-performing areas.
-- Business trends and patterns.
+- Revenue and profitability analysis.
+- Sales trends and patterns.
+- Identification of high-performing and low-performing products.
+- Business insights to support decision-making.
 
-## Key Skills Demonstrated
+## Repository Structure
+
+    Sales-Dashboard-Analysis/
+    │
+    ├── Business Problem Document.pdf
+    ├── Customer Shopping Behavior Analysis.pdf
+    ├── Customer-Shopping-Behavior-Analysis.pptx
+    ├── Customer_Shopping_Behavior_Analysis.ipynb
+    ├── Sales Dashboard Analysis.pbix
+    ├── customer_behavior_sql_queries.sql
+    ├── customer_shopping_behavior
+    └── README.md
+
+## Project Files Description
+
+| File | Description |
+|---|---|
+| Business Problem Document.pdf | Defines the business problem and project objectives. |
+| Customer Shopping Behavior Analysis.pdf | Contains project documentation and analysis. |
+| Customer-Shopping-Behavior-Analysis.pptx | Project presentation. |
+| Customer_Shopping_Behavior_Analysis.ipynb | Python notebook for data analysis and preprocessing. |
+| Sales Dashboard Analysis.pbix | Power BI interactive dashboard. |
+| customer_behavior_sql_queries.sql | SQL queries used for data analysis. |
+| customer_shopping_behavior | Dataset used for the project. |
+| README.md | Project overview and documentation. |
+
+## Skills Demonstrated
 
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis (EDA)
-- SQL Queries and Data Aggregation
+- SQL Querying and MySQL
 - Python Programming
 - Data Visualization
 - Power BI Dashboard Development
-- Analytical Thinking and Business Insights
-
-## Project Structure
-
-```text
-Sales-Dashboard-Analysis/
-│
-├── Dataset/
-│   └── sales_data.csv
-│
-├── Python/
-│   └── sales_analysis.ipynb
-│
-├── SQL/
-│   └── sales_analysis.sql
-│
-├── PowerBI/
-│   └── sales_dashboard.pbix
-│
-└── README.md
-```
-
-*Note: Update the folder and file names according to your actual repository structure.*
+- Business Intelligence
+- Analytical Thinking and Problem Solving
 
 ## Project Outcome
 
-This project demonstrates an end-to-end data analysis workflow by combining SQL for querying, Python for data preparation and analysis, and Power BI for interactive visualization.
+This project demonstrates an end-to-end data analytics workflow by combining Python for data preparation and exploration, SQL for structured data analysis, and Power BI for interactive visualization.
 
-It showcases how raw sales data can be processed and presented in a structured format to help understand business performance and support informed decision-making.
+It showcases the ability to transform raw customer shopping data into meaningful insights that help understand purchasing behavior, monitor sales performance, and support informed business decisions.
 
 ## Author
 
-**Shivkant Yadav**
+Shivkant Yadav
 
 B.Tech – Artificial Intelligence & Data Science
 
 VESIT, Mumbai
-
